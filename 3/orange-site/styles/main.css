@@ -1,0 +1,62 @@
+/*
+	reset.css
+	normalize.css
+*/
+
+@import url("reset.css");
+
+* {
+	/* paddings auto */
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body{
+	font: 13px Arial, Helvetica, sans-serif;
+	/* 
+	20em
+	20rem
+	*/
+}
+
+.header{
+	background: #000;
+	height: 75px;
+}
+
+.header .logo img{
+	margin-left: 305px;
+	margin-top: 26px;
+	margin-bottom: 26px;
+
+}
+
+.global-menu ul{
+	display: inline-table;
+	table-layout: auto;
+	
+	margin-left: 664px;
+	margin-right: 140px;
+	margin-top: 26px;
+	margin-bottom: 26px;
+}
+
+.global-menu li{
+	display: table-cell;
+	text-align: center;
+}
+
+.global-menu li a:hover{
+	color: #fff;
+	text-decoration: underline;
+}

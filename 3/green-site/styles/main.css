@@ -2,11 +2,10 @@
 	margin: 0;
 	padding: 0;
 	
-		/* paddings auto 
+	/* paddings auto */
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
-	*/
 }
 
 .clearfix:after {
@@ -38,6 +37,7 @@ a{
 	/*padding: 0 8px;
 	width: 764px;*/
 	width: 780px;
+	
 	background: #fff url("../img/header.jpg") no-repeat center top;
 }
 
@@ -150,6 +150,101 @@ a{
 	padding-right: 10px;
 }
 
+.modal-window{
+	position: fixed;
+	background: rgba(0,0,0,.5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal-body{
+	background: #fff;
+	width: 300px;
+	height: 400px;
+	
+	/*
+	margin: 0 auto;
+	position: relative;
+	...
+	
+	----
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	
+	*/
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -200px;
+
+}
+
+.custom-select{
+	display: inline-block;
+}
+
+.custom-select .current-item{
+	background: #fff;
+	border: 1px solid red;
+	padding: 0 20px 0 10px;
+	min-width: 100px;
+	max-width: 200px;
+	position: relative;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	
+}
+
+.custom-select .current-item a{
+	position: absolute;
+	right: 5px;
+}
+
+.custom-select ul{
+	background: #fff;
+	border: 1px solid blue;
+	list-style: none;
+	position: absolute;
+	min-width: 100px;
+	box-sizing: border-box;
+}
+
+.custom-select ul li{
+	padding: 5px 10px;
+}
+
+.custom-select ul li.active,
+ .custom-select ul li:hover{
+	background: blue;
+	color: #fff;
+	
+}
+
+.custom-checkbox{
+	width: 20px;
+	height: 20px;
+	border: 1px solid red;
+	
+	
+}
+
+input[type="checkbox"]:checked + .custom-checkbox:before{
+	background = red;
+}
+
+input[type="checkbox"]{
+	opacity: 0;
+	position: absolute;
+	left: -9999;
+}
 /*
 	list-style
 	background
