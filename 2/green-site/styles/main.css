@@ -74,7 +74,7 @@ a{
 	margin: 0 20px;
 	margin-left: 28px;
 	margin-top: 119px;
-	
+	margin-right: 29px;
 }
 
 .global-menu ul{
@@ -96,17 +96,17 @@ a{
 }
 
 .content-left{
-	margin-top: 140px;
 	float: left;
-	width: 450px;
+	width: 70%;
 	padding-right: 22px;
-	padding-left: 50px;
+	padding-left: 39px;
 }
 
 .content-right{
 	float: right;
-	width: 241px;
-	padding-right: 21px;
+	width: 30%;
+	padding-right: 29px;
+	padding-top: 15px;
 }
 
 .one-news-box .footer-one-news-box ul{
@@ -136,7 +136,7 @@ a{
 
 .one-news-box h1,
 .one-news-box h2{
-	color: green;
+	color: rgb(0, 179, 0);
 }
 
 .archives h1,
@@ -150,8 +150,19 @@ a{
 	
 }
 
+.archives ul li{
+    list-style: none;
+}
+
+.archives ul li a{
+
+	color: rgb(0, 183, 0);
+}
 .archives ul li:before{
 	content: url("../img/bg.gif");
+    background-size: 7px 7px;
+    height: 7px;
+    width: 7px;
 	padding-right: 10px;
 }
 
