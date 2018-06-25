@@ -6,8 +6,8 @@ body{
 	text-transform: uppercase;
 	
 	
-	padding-left: 230px;
-	padding-right: 230px;
+   /* padding-left: 230px;*/
+	/*padding-right: 230px;*/
 	
 	
 }
@@ -27,9 +27,21 @@ body{
 .navbar-brand{
 	color:  rgb(232,102,60);
 	font-size: 30px;
+    padding-left: 0px;
 }
 
 
+.content .images{
+    padding-top: 17px;
+}
+
+.content .text-cols{
+    padding-top: 40px;
+}
+
+.text-cols .head{
+    padding-bottom: 38px;
+}
 .icon{
 	background: url("../pic/sprite-1.png") no-repeat; 
 	width: 50px;
