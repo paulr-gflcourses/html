@@ -97,3 +97,29 @@ body{
 
 }
 
+
+.recent-work .caption h4{
+	color:  rgb(185,185,185);
+}
+
+.recent-work .caption .date{
+	color:  rgb(232,102,60);
+}
+
+.recent-works-separator{
+	/*display: table;*/
+}
+
+.recent-works-separator h4{
+	/*display: table-cell;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-right: 0;
+	padding-left: 0;
+}
+.recent-works-separator .sep-line{
+	/*display: table-cell;*/
+	background: url("../pic/title-bg.png");
+	height: 20px;
+	/*width: 300px;*/
+}
