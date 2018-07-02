@@ -80,6 +80,7 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 22px;
+    font-size: 120%;
 }
 .text-cols .description{
 	
@@ -97,17 +98,10 @@ body{
 
 }
 
-
-.recent-work .caption h4{
-	color:  rgb(185,185,185);
-}
-
-.recent-work .caption .date{
-	color:  rgb(232,102,60);
-}
-
 .recent-works-separator{
 	/*display: table;*/
+    margin-bottom: 25px;
+    margin-left: 0;
 }
 
 .recent-works-separator h4{
@@ -122,4 +116,149 @@ body{
 	background: url("../pic/title-bg.png");
 	height: 20px;
 	/*width: 300px;*/
+}
+
+.recent-work{
+    padding-right: 0;
+}
+
+.recent-work .thumbnail{
+    padding: 0;
+    margin-bottom: 0;
+}
+.recent-work .caption{
+    padding: 13px;
+}
+.recent-work .caption h4{
+	color:  rgb(185,185,185);
+    margin: 0px;
+    font-size: 120%;
+}
+
+.recent-work .caption .date{
+	color:  rgb(232,102,60);
+    margin-bottom: 0;
+    font-size: 80%;
+}
+
+.footer-bar{
+	background:  rgb(232,102,60);
+	color: white;
+    /*padding: 35px, 38px, 40px, 30px;*/
+    /*padding-top: 30px;*/
+    /*padding-right: 30px;*/
+    /*padding-bottom: 30px;*/
+    /*padding-left: 30px;*/
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+
+
+}
+
+.footer-bar a{
+    color: white;
+}
+.footer-bar h3{
+    margin-bottom: 26px;
+}
+
+.footer-bar p,
+.footer-bar li{
+	text-transform: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    margin-bottom: 16px;
+}
+.footer-bar p{
+
+}
+.footer-bar ul{
+    padding: 0;
+}
+.footer-bar li{
+    list-style: none;
+}
+
+.footer-bar .poster, 
+.footer-bar .time{
+    
+	color:  rgba(255,255,255,.55);
+}
+
+.footer-bar .time{
+    margin-top: 6px;
+}
+
+.socials ul{
+    display: table;
+}
+.socials li{
+    display: table-cell;
+    padding: 5px; 
+    padding-left: 0;
+}
+.social-icon{
+	background: url("../pic/sprite-2.png") no-repeat; 
+	width: 31px;
+    height: 31px;
+}
+
+.facebook .social-icon{
+	background-position: 0 0;	
+}
+
+.twitter .social-icon{
+	background-position: -31px 0;	
+}
+
+.mail .social-icon{
+	background-position: -62px  0;	
+}
+
+.rss .social-icon{
+	background-position: -94px  0;	
+}
+
+.viber .social-icon{
+	background-position: -126px  0;	
+}
+
+
+
+
+
+
+.footer{
+	background: rgb(243,178,157);
+	margin-top: 48px;
+	/*margin-right: 0;*/
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-content{
+	/*padding-left: 11px;
+	padding-right: 11px;*/
+	
+}
+.footer .margin-left,
+.footer .margin-right{
+	/*background: rgb(243,178,157);*/
+	/*background: white;*/
+	/*border: 5px solid;
+	border-color: white;
+	padding-left: 11px;
+	padding-right: 0px;*/
+}
+.footer .margin-left{
+	/*border-color: white;
+	border: 5px solid;*/
+}
+.footer .margin-right{
+	/*border-color: white;
+	border: 5px solid;*/
 }
