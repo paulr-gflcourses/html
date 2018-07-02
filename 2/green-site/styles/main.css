@@ -170,3 +170,79 @@ a{
 	list-style
 	background
 */
+
+
+
+
+
+
+
+
+.custom-select {
+    display: inline-block;
+    position: relative;
+    margin: 0 10px;
+}
+.custom-select .current-item {
+    background: #fff;
+    min-width: 300px;
+    max-width: 300px;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    height: 50px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.custom-select .current-item a img {
+  padding: 20px 17px;
+}
+.custom-select .current-item a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: rgb(122, 204, 200);
+}
+.custom-select .current-item span {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+  color: rgb(137, 137, 137);
+}
+.custom-select .current-item .cloud {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.custom-select .current-item .clock {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.custom-select ul li {
+  padding: 5px 10px;
+}
+.custom-select ul {
+  background: #fff;
+  border: 1px solid blue;
+  list-style: none;
+  position: absolute;
+  min-width: 100%;
+  display: none;
+}
+.group-select {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
