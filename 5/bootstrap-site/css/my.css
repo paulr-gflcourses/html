@@ -101,25 +101,28 @@ body{
 .recent-works-separator{
 	/*display: table;*/
     margin-bottom: 25px;
-    margin-left: 0;
+    /*margin-left: 0;*/
+	padding-right: 15px;
+
 }
 
 .recent-works-separator h4{
 	/*display: table-cell;*/
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-right: 0;
-	padding-left: 0;
+	/*padding-right: 0;
+	padding-left: 0;*/
 }
 .recent-works-separator .sep-line{
 	/*display: table-cell;*/
 	background: url("../pic/title-bg.png");
 	height: 20px;
+	
 	/*width: 300px;*/
 }
 
 .recent-work{
-    padding-right: 0;
+    /*padding-right: 0;*/
 }
 
 .recent-work .thumbnail{
@@ -131,7 +134,7 @@ body{
 }
 .recent-work .caption h4{
 	color:  rgb(185,185,185);
-    margin: 0px;
+    /*margin: 0px;*/
     font-size: 120%;
 }
 
@@ -139,6 +142,25 @@ body{
 	color:  rgb(232,102,60);
     margin-bottom: 0;
     font-size: 80%;
+}
+
+.footer{
+	/*background: rgb(243,178,157);*/
+	margin-top: 48px;
+	/*margin-right: 0;*/
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-content{
+	/*padding-left: 11px;
+	padding-right: 11px;*/
+	border-right: 11px solid white;
+	border-left: 11px solid white;
+	
 }
 
 .footer-bar{
@@ -149,9 +171,10 @@ body{
     /*padding-right: 30px;*/
     /*padding-bottom: 30px;*/
     /*padding-left: 30px;*/
+	
     padding: 20px;
     margin-top: 0px;
-    margin-left: 0px;
+   /* margin-left: 0px;*/
 
 
 }
@@ -229,24 +252,10 @@ body{
 
 
 
-.footer{
-	background: rgb(243,178,157);
-	margin-top: 48px;
-	/*margin-right: 0;*/
-}
 
-.row-flex {
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.footer-content{
-	/*padding-left: 11px;
-	padding-right: 11px;*/
-	
-}
 .footer .margin-left,
 .footer .margin-right{
+	background: rgb(243,178,157);
 	/*background: rgb(243,178,157);*/
 	/*background: white;*/
 	/*border: 5px solid;
@@ -257,8 +266,10 @@ body{
 .footer .margin-left{
 	/*border-color: white;
 	border: 5px solid;*/
+	/*border-right: 11px solid white;*/
 }
 .footer .margin-right{
 	/*border-color: white;
 	border: 5px solid;*/
+	/*border-left: 11px solid white;*/
 }
