@@ -7,6 +7,9 @@ body{
 	text-transform: uppercase;
 }
 
+.content-center{
+	max-width: 941px;
+}
 
 .navbar-brand{
 	color:  rgb(232,102,60);
@@ -163,6 +166,7 @@ body{
 	background: rgb(243,178,157);
 	padding-left: 19px;
 	padding-right: 19px;
+	max-width: 941px;
 }
 
 .footer-bar{
