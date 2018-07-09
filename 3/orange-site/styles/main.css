@@ -32,40 +32,68 @@ body{
 .header{
 	background: #000;
 	height: 75px;
+	padding-top: 27px;
+	padding-bottom: 27px;
+	
 }
 
-.header .logo img{
-	margin-left: 305px;
+.header-content{
+	margin-left: auto;
+    margin-right: auto;
+}
+.header .logo{
+
+	display: block;
+	/*margin-right: 56px;*/
+	/*padding-top: 27px;*/
+	
+	/*float: left;*/
+	
+	
+	/*
 	margin-top: 26px;
-	margin-bottom: 26px;
+	margin-bottom: 26px;*/
 
 }
 .global-menu{
-	display: inline-block;
-	position: relative;
+	/*position: absolute;*/
+	display: block;
+	/*position: relative;*/
+	/*float: left;*/
+	
 }
 
 .global-menu ul{
 	display: table;
-	table-layout: auto;
+	table-layout: fixed;
+	/*width: 100%;*/
 	
+	/*
 	margin-left: 664px;
 	margin-right: 140px;
 	margin-top: 26px;
 	margin-bottom: 26px;
+	*/
 }
 
 .global-menu li{
 	display: table-cell;
 	text-align: center;
+	
+}
+
+.global-menu li a{
+	color: rgb(127, 131, 136);
+	text-decoration: none;
 }
 
 .global-menu li a:hover{
 	color: #fff;
-	text-decoration: underline;
 }
 
-
+.content{
+	border-top: solid 9px rgb(238,95,21);
+}
 
 .choosing{
 	background: rgb(255,116,44);
@@ -79,7 +107,7 @@ body{
 }
 
 
-
+/*
 
 .custom-select {
     display: inline-block;
@@ -149,3 +177,5 @@ body{
   text-align: center;
   margin-top: 50px;
 }
+
+*/
