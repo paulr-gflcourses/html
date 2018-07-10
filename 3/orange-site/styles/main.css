@@ -34,9 +34,11 @@ body{
 .description-content,
 .screenshot-content,
 .footer-content{
-	max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+	//max-width: 960px;
+	width: 78%;
+    //margin-left: auto;
+    //margin-right: auto;
+	margin:0 auto;
 }
 
 .header{
@@ -53,7 +55,9 @@ body{
 }
 .header .logo{
 
-	display: block;
+	display: inline-block;
+	float: center;
+	/*width: 100%;*/
 	/*margin-right: 56px;*/
 	/*padding-top: 27px;*/
 	
@@ -65,15 +69,23 @@ body{
 	margin-bottom: 26px;*/
 
 }
+
 .global-menu{
+	display: inline-block;
+	float: right;
+}
+.global-menu ul{
+	
+	margin-bottom:50px;
 	/*position: absolute;*/
 	display: block;
-	/*position: relative;*/
+	//position: absolute;
 	/*float: left;*/
+	border: 1px solid red;
 	
 }
-
 .global-menu ul{
+	float: right;
 	display: table;
 	table-layout: fixed;
 	/*width: 100%;*/
@@ -134,6 +146,12 @@ body{
 }
 .choose-hosting .slider .cloud{
     float: center;
+}
+
+.slider 
+{
+	margin:0px auto;
+	border: 1px solid red;
 }
 /*
 
