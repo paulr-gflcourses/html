@@ -29,6 +29,16 @@ body{
 	*/
 }
 
+.header-content,
+.choose-hosting-content,
+.description-content,
+.screenshot-content,
+.footer-content{
+	max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header{
 	background: #000;
 	height: 75px;
@@ -91,22 +101,40 @@ body{
 	color: #fff;
 }
 
-.content{
-	border-top: solid 9px rgb(238,95,21);
-}
 
-.choosing{
+.choose-hosting{
+	border-top: solid 9px rgb(238,95,21);
+	border-bottom: solid 31px rgb(255,116,44);
 	background: rgb(255,116,44);
 	color: white;
+	height: 730px;
 }
 
-.choosing h1{
+.choose-hosting h1{
 	font-size: 200%;
 	text-align: center;
 	
 }
 
 
+.choose-hosting .slider{
+    display: table;
+}
+
+.choose-hosting .slider .previous,
+.choose-hosting .slider .cloud,
+.choose-hosting .slider .next{
+    display: table-cell;
+}
+.choose-hosting .slider .previous{
+    float: right;
+}
+.choose-hosting .slider .next{
+    float: left;
+}
+.choose-hosting .slider .cloud{
+    float: center;
+}
 /*
 
 .custom-select {
@@ -179,3 +207,37 @@ body{
 }
 
 */
+
+.description{
+	background: rgb(246, 245, 242);
+	height: 616px;
+    color: #000;
+    
+
+}
+
+
+.description .left-column{
+    float: left;
+}
+.description .right-column{
+    float: right;
+}
+
+
+.screenshot{
+
+	background: rgb(93, 186, 181);
+	height: 620px;
+}
+
+
+
+
+
+
+.footer{
+	background: rgb(21, 28, 39);
+	height: 641px;
+    color: #fff;
+}
