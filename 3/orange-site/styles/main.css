@@ -34,11 +34,12 @@ body{
 .description-content,
 .screenshot-content,
 .footer-content{
-	//max-width: 960px;
+	/*max-width: 960px;*/
 	width: 78%;
-    //margin-left: auto;
-    //margin-right: auto;
+    /*margin-left: auto;
+    margin-right: auto;*/
 	margin:0 auto;
+	
 }
 
 .header{
@@ -49,14 +50,16 @@ body{
 	
 }
 
+/*
 .header-content{
 	margin-left: auto;
     margin-right: auto;
-}
+}*/
+
 .header .logo{
 
 	display: inline-block;
-	float: center;
+	float: left;
 	/*width: 100%;*/
 	/*margin-right: 56px;*/
 	/*padding-top: 27px;*/
@@ -76,18 +79,20 @@ body{
 }
 .global-menu ul{
 	
-	margin-bottom:50px;
+	/*margin-bottom:50px;*/
 	/*position: absolute;*/
-	display: block;
-	//position: absolute;
+	display: inline-table;
+	width: 600px;
+	/*width: 50%;*/
+	/*position: absolute;*/
 	/*float: left;*/
-	border: 1px solid red;
+
 	
 }
 .global-menu ul{
 	float: right;
 	display: table;
-	table-layout: fixed;
+	/*table-layout: fixed;*/
 	/*width: 100%;*/
 	
 	/*
@@ -113,6 +118,18 @@ body{
 	color: #fff;
 }
 
+#sign-up{
+	background: rgb(163,211,156);
+	padding: 13px 20px 13px 20px;
+	color: #fff;
+	border-bottom: 3px solid rgb(115,158,108);
+	border-radius: 4px;
+}
+
+#sign-up:hover{
+	background: rgb(111,214,96);
+	color: #000;
+}
 
 .choose-hosting{
 	border-top: solid 9px rgb(238,95,21);
@@ -123,6 +140,8 @@ body{
 }
 
 .choose-hosting h1{
+	padding-top: 40px;
+	padding-bottom: 28px;
 	font-size: 200%;
 	text-align: center;
 	
@@ -131,28 +150,31 @@ body{
 
 .choose-hosting .slider{
     display: table;
+	margin:0px auto;
+	width: 100%;
 }
 
 .choose-hosting .slider .previous,
 .choose-hosting .slider .cloud,
 .choose-hosting .slider .next{
     display: table-cell;
+	vertical-align: middle;
+	/*display: inline-block;*/
 }
 .choose-hosting .slider .previous{
-    float: right;
+    float: left;
+
 }
 .choose-hosting .slider .next{
-    float: left;
+    float: right;
 }
-.choose-hosting .slider .cloud{
-    float: center;
+.choose-hosting .slider .cloud,
+.choose-hosting .slider .cloud img
+{
+    margin:0px auto;
 }
 
-.slider 
-{
-	margin:0px auto;
-	border: 1px solid red;
-}
+
 /*
 
 .custom-select {
