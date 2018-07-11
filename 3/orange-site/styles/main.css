@@ -43,7 +43,7 @@ body{
 }
 
 .header{
-	background: #000;
+	background: rgb(35,45,59);
 	height: 75px;
 	padding-top: 27px;
 	padding-bottom: 27px;
@@ -142,7 +142,7 @@ body{
 .choose-hosting h1{
 	padding-top: 40px;
 	padding-bottom: 28px;
-	font-size: 200%;
+	font-size: 300%;
 	text-align: center;
 	
 }
@@ -152,30 +152,43 @@ body{
     display: table;
 	margin:0px auto;
 	width: 100%;
+	vertical-align: middle;
 }
 
 .choose-hosting .slider .previous,
 .choose-hosting .slider .cloud,
 .choose-hosting .slider .next{
     display: table-cell;
-	vertical-align: middle;
+	
 	/*display: inline-block;*/
+	vertical-align: middle;
 }
 .choose-hosting .slider .previous{
-    float: left;
-
+    /*float: left;*/
 }
 .choose-hosting .slider .next{
-    float: right;
+    /*float: right;*/
 }
-.choose-hosting .slider .cloud,
-.choose-hosting .slider .cloud img
+.choose-hosting .slider .cloud
 {
     margin:0px auto;
+   width: 50%;
+   
+   display: block;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    width: 65%;
 }
 
 
-/*
+
+
+
+
+
+
+
+
 
 .custom-select {
     display: inline-block;
@@ -194,14 +207,7 @@ body{
     border-radius: 3px;
     height: 50px;
 }
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
+
 .custom-select .current-item a img {
   padding: 20px 17px;
 }
@@ -246,7 +252,30 @@ body{
   margin-top: 50px;
 }
 
-*/
+.group-select .get-button{
+	margin:0px auto;
+	background: rgb(122, 204, 200);
+	padding: 22px 20px 22px 20px;
+	color: #fff;
+	border-bottom: 3px solid rgb(74,170,165);
+	border-radius: 4px;
+	width: 30%;
+	font-size: 145%;
+	margin-top: 18px;
+	/*height: 68px;*/
+	/*width: 300px;*/
+	
+}
+
+
+
+
+
+
+
+
+
+
 
 .description{
 	background: rgb(246, 245, 242);
