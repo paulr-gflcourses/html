@@ -253,7 +253,7 @@ body{
   margin-top: 50px;
 }
 
-.group-select .get-button{
+.group-select .blue-button{
 	margin:0px auto;
 	background: rgb(122, 204, 200);
 	padding: 22px 20px 22px 20px;
@@ -400,6 +400,7 @@ body{
 .footer .contact-form{
 	display: table;
 	padding-top: 32px;
+	height: auto;
 }
 .footer .contact-form .inputs{
 	display: table-column;
@@ -407,10 +408,18 @@ body{
 	width: 60%;
 	padding-right: 20px;
 	color: #fff;
+
+}
+
+.footer .contact-form .right-mes{
+	display: table-column;
+	float: right;
+	width: 40%;
 }
 
 .footer .contact-form #name,
-.footer .contact-form #email{
+.footer .contact-form #email,
+.footer .contact-form #message{
 	display: block;
 	width: 100%;
 	margin-bottom: 15px;
@@ -419,10 +428,93 @@ body{
 	
 	background: rgb(8,12,17);
 	color: #fff;
+	border: none;
+	border-radius: 6px;
 	
 }
+
 .footer .contact-form #message{
 	display: table-column;
 	float: right;
-	width: 40%;
+	/* width: 40%; */
+	width: 100%;
+	/*height: 100%;*/
+	height: 160px;
+	
+	background: rgb(8,12,17);
+	color: #fff;
+	border: none;
+	padding: 25px;
+	border-radius: 6px;
+	
+	margin-bottom: 0;
+}
+
+.contact-form .blue-button{
+	
+	margin:0px auto;
+	float: right;
+	
+	border: none;
+	background: rgb(122, 204, 200);
+	padding: 22px 20px 22px 20px;
+	color: #fff;
+	border-bottom: 3px solid rgb(74,170,165);
+	border-radius: 4px;
+	/*width: 30%;*/
+	font-size: 145%;
+	margin-top: 19px;
+	/*height: 68px;*/
+	/*width: 300px;*/
+	padding: 25px 80px;
+}
+.socials{
+	
+}
+
+.socials ul{
+	
+}
+
+.socials li{
+	
+	margin-left: 20px;
+	
+}
+
+.socials .img1,
+.socials .img2,
+.socials .img3,
+.socials .img4{
+	height: 54px;
+	width: 60px;
+	/*margin-left: 20px;*/
+	
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.socials img{
+	margin: 0px auto;
+    display: block;
+    /*width: 100%;*/
+}
+.socials .img1{
+	background: rgb(255,170,22);
+	border-bottom: 3px solid rgb(211,134,0);
+	padding: 16px;
+}
+.socials .img2{
+	background: rgb(236,91,149);
+	border-bottom: 3px solid rgb(211,0,84);
+	padding: 13px;
+}
+.socials .img3{
+	background: rgb(0,174,239);
+	border-bottom: 3px solid rgb(0,129,177);
+	padding: 15px;
+}
+.socials .img4{
+	background: rgb(0,84,166);
+	border-bottom: 3px solid rgb(0,58,114);
+	padding: 15px;
 }
