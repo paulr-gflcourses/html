@@ -60,6 +60,7 @@ body{
 
 	display: inline-block;
 	float: left;
+	padding-left: 10px;
 	/*width: 100%;*/
 	/*margin-right: 56px;*/
 	/*padding-top: 27px;*/
@@ -281,18 +282,47 @@ body{
 	background: rgb(246, 245, 242);
 	height: 616px;
     color: #000;
-    
+
 
 }
 
+.description-content{
+	padding-top: 54px;
+	padding-bottom: 58px;
+}
 
 .description .left-column{
     float: left;
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 .description .right-column{
     float: right;
+	width: 50%;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
+.description h2{
+	font-size: 170%;
+	
+}
+
+.description p{
+	color: rgb(149, 149, 149);
+	padding-top: 31px;
+	line-height: 1.7;
+}
+
+.description p:first-child{
+	padding-top: 15px;
+}
+
+.description p:hover{
+	color: rgb(255,116,44);
+	
+}
 
 .screenshot{
 
@@ -300,13 +330,99 @@ body{
 	height: 620px;
 }
 
+.screenshot-content{
+	margin: 0px auto;
+	padding-top: 52px;
+	width: 86%;
+}
+.screenshot-content .pic-screenshot{
+	margin: 0px auto;
+    display: block;
+    width: 100%;
+}
 
+.screenshot-content .slider-circles{
+	margin: 0px auto;
+    display: block;
+    width: 16%;
+	padding-top: 9px;
+}
 
-
-
-
+.screenshot-content .slider-circles img{
+	padding-left: 18px;
+	
+}
 .footer{
 	background: rgb(21, 28, 39);
 	height: 641px;
     color: #fff;
+}
+
+.footer-content{
+	padding-top: 66px;
+}
+.footer-logo{
+	padding-left: 10px;
+	float: left;
+	width: 60%;
+}
+.footer-logo p{
+	padding-top: 18px;
+	color: rgb(76, 92, 116);
+}
+
+.socials{
+	float: right;
+	width: 40%;
+}
+
+.socials ul{
+	float: right;
+}
+
+.socials ul li{
+	display: inline-block;
+}
+
+.footer .contact-form{
+	margin: 0px auto;
+    display: block;
+	width: 100%;
+	float: left;
+}
+
+.footer .contact-form #name,
+.footer .contact-form #email,
+.footer .contact-form #message
+{
+	/*display: block;*/
+}
+.footer .contact-form{
+	display: table;
+	padding-top: 32px;
+}
+.footer .contact-form .inputs{
+	display: table-column;
+	float: left;
+	width: 60%;
+	padding-right: 20px;
+	color: #fff;
+}
+
+.footer .contact-form #name,
+.footer .contact-form #email{
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 30px 40px 30px 40px;
+	height: 73px;
+	
+	background: rgb(8,12,17);
+	color: #fff;
+	
+}
+.footer .contact-form #message{
+	display: table-column;
+	float: right;
+	width: 40%;
 }
