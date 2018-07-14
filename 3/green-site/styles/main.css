@@ -91,6 +91,9 @@ a{
 	text-decoration: underline;
 }
 
+.content{
+	margin-top: 200px;
+}
 .content-left{
 	float: left;
 	width: 450px;
@@ -215,18 +218,65 @@ a{
 	position: absolute;
 	min-width: 100px;
 	box-sizing: border-box;
+	display: none;
+	
 }
+
+
+.custom-select ul.active{
+	display: block;
+}
+
 
 .custom-select ul li{
 	padding: 5px 10px;
 }
 
+
 .custom-select ul li.active,
- .custom-select ul li:hover{
+.custom-select ul li:hover{
 	background: blue;
 	color: #fff;
 	
 }
+
+/*.custom-select .current-item:hover + ul,*/
+.custom-select a:focus + ul,  /* show on focus for all browsers/ on click for all except IE */
+.custom-select a:active + ul /* show on click for IE */ {
+	display: block;
+} /* and don't forget tabindex='1' on the a in the HTML ;) */
+
+
+
+
+.styled-select select {
+   background: transparent;
+   width: 268px;
+   padding: 5px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   }
+
+
+.styled-select {
+   width: 240px;
+   height: 40px;
+   overflow: hidden;
+   background: url('../../orange-site/pic/select_arrow_bottom.png') no-repeat right #ddd;
+   background-image: url('../../orange-site/pic/select_arrow_bottom.png');
+   background-repeat: no-repeat;
+   border: 1px solid #ccc;
+ }
+
+
+
+
+
+
 
 .custom-checkbox{
 	width: 20px;

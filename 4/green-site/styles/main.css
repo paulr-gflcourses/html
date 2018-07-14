@@ -206,6 +206,7 @@ a{
 .custom-select .current-item a{
 	position: absolute;
 	right: 5px;
+	
 }
 
 .custom-select ul{
@@ -215,6 +216,11 @@ a{
 	position: absolute;
 	min-width: 100px;
 	box-sizing: border-box;
+	display: none;
+}
+
+.custom-select ul::hover{
+	display: block;
 }
 
 .custom-select ul li{
@@ -225,6 +231,7 @@ a{
  .custom-select ul li:hover{
 	background: blue;
 	color: #fff;
+	display: block;
 	
 }
 
