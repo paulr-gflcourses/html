@@ -35,9 +35,21 @@ body a{
 .description-content,
 .screenshot-content,
 .footer-content{
-    margin:0 auto;
-    width: 78%;
+    margin:0 auto;/
+	min-width: 960px;
+	max-width: 960px;
 }
+
+
+
+.header,
+.choose-hosting,
+.description,
+.screenshot,
+.footer{
+	min-width: 960px;
+}
+
 
 .header{
     background: rgb(35,45,59);
@@ -55,6 +67,7 @@ body a{
 .global-menu{
     display: inline-block;
     float: right;
+	
 }
 
 .global-menu ul{
@@ -64,7 +77,8 @@ body a{
 
 .global-menu li{
     display: table-cell;
-    text-align: center;
+    text-align: right;
+	padding-left: 35px;
 }
 
 .global-menu li a{
@@ -116,20 +130,17 @@ body a{
     vertical-align: middle;
 }
 
-.choose-hosting .slider .previous{
+.choose-hosting .slider .previous img{
 	float: left;
 }
 
-.choose-hosting .slider .next{
+.choose-hosting .slider .next img{
 	float: right;
 }
 
 .choose-hosting .slider .cloud{
     margin:0px auto;
-    width: 50%;
-    display: block;
-	display: table-cell;
-    /*width: 65%;*/
+    width: 65%;
 }
 
 .choose-hosting .slider .cloud a{
@@ -138,6 +149,8 @@ body a{
 
 .choose-hosting .slider .cloud a img{
 	margin: 0px auto;
+	max-width: 100%;
+    margin-left: 3%;
 }
 
 .custom-select {
@@ -282,12 +295,12 @@ body a{
 
 .screenshot-content{
     padding-top: 52px;
-    width: 86%;
+	min-width: 960px;
 }
 .screenshot-content .pic-screenshot{
     margin: 0px auto;
     display: block;
-    /*width: 100%;*/
+	max-width: 100%;
 }
 
 .screenshot-content .slider-circles{
