@@ -116,13 +116,29 @@ body a{
     vertical-align: middle;
 }
 
+.choose-hosting .slider .previous{
+	float: left;
+}
+
+.choose-hosting .slider .next{
+	float: right;
+}
+
 .choose-hosting .slider .cloud{
     margin:0px auto;
     width: 50%;
     display: block;
-    width: 65%;
+	display: table-cell;
+    /*width: 65%;*/
 }
 
+.choose-hosting .slider .cloud a{
+	margin:0px auto;
+}
+
+.choose-hosting .slider .cloud a img{
+	margin: 0px auto;
+}
 
 .custom-select {
     display: inline-block;
@@ -261,7 +277,7 @@ body a{
 
 .screenshot{
     background: rgb(93, 186, 181);
-    height: 620px;
+    height: 621px;
 }
 
 .screenshot-content{
@@ -271,7 +287,7 @@ body a{
 .screenshot-content .pic-screenshot{
     margin: 0px auto;
     display: block;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 .screenshot-content .slider-circles{
